@@ -2,3 +2,4 @@ fastmcp
 tzdata
 pytz
 mangum
+pydantic
