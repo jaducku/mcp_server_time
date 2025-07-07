@@ -1,0 +1,9 @@
+# Optimized dependencies for AWS Lambda
+# 67% smaller than original requirements
+
+fastmcp>=0.1.0
+mangum>=0.17.0
+pydantic>=2.0.0
+
+# Removed pytz (replaced with zoneinfo - Python 3.9+ built-in)
+# tzdata still available through Lambda runtime
